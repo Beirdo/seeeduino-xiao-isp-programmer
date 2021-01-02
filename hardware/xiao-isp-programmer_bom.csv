@@ -1,0 +1,6 @@
+Reference, Quantity, Value, Footprint, Datasheet
+J1 ,1,"Conn_02x03_Odd_Even","Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical","~"
+Q1 ,1,"MMBT3904","Package_TO_SOT_SMD:SOT-23","https://www.onsemi.com/pub/Collateral/2N3903-D.PDF"
+R1 R2 ,2,"10k","Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder","~"
+U1 ,1,"SeeeduinoXIAO","Seeduino:Seeeduino XIAO-MOUDLE14P-2.54-21X17.8MM",""
+U2 ,1,"TXB0104PW","Package_SO:TSSOP-14_4.4x5mm_P0.65mm","http://www.ti.com/lit/ds/symlink/txb0104.pdf"

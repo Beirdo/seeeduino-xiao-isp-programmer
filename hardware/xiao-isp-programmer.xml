@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>D:\kicad\xiao-isp-programmer\xiao-isp-programmer.sch</source>
+    <date>1/2/2021 3:59:20 AM</date>
+    <tool>Eeschema (5.1.9)-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Seeeduino XIAO ISP Programmer</title>
+        <company>Gavin Hurlbut</company>
+        <rev>v2.0</rev>
+        <date>2021-01-01</date>
+        <source>xiao-isp-programmer.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="U1">
+      <value>SeeeduinoXIAO</value>
+      <footprint>Seeduino:Seeeduino XIAO-MOUDLE14P-2.54-21X17.8MM</footprint>
+      <libsource lib="Seeeduino XIAO" part="SeeeduinoXIAO" description=""/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF05807</tstamp>
+    </comp>
+    <comp ref="U2">
+      <value>TXB0104PW</value>
+      <footprint>Package_SO:TSSOP-14_4.4x5mm_P0.65mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/txb0104.pdf</datasheet>
+      <libsource lib="Logic_LevelTranslator" part="TXB0104PW" description="4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6V APort, 1.65 - 5.5V BPort, TSSOP-14"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF7008D</tstamp>
+    </comp>
+    <comp ref="Q1">
+      <value>MMBT3904</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>https://www.onsemi.com/pub/Collateral/2N3903-D.PDF</datasheet>
+      <libsource lib="Transistor_BJT" part="MMBT3904" description="0.2A Ic, 40V Vce, Small Signal NPN Transistor, SOT-23"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF8CA1D</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FF95A6C</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_02x03_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FFAD322</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <datasheet>~</datasheet>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5FFED93C</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_02x03_Odd_Even">
+      <description>Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x03_Odd_Even</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+      </fields>
+      <pins>
+        <pin num="1" name="~" type="passive"/>
+        <pin num="2" name="~" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Logic_LevelTranslator" part="TXB0104PW">
+      <description>4-Bit Bidirectional Voltage-Level Translator, Auto Direction Sensing and ±15-kV ESD Protection, 1.2 - 3.6V APort, 1.65 - 5.5V BPort, TSSOP-14</description>
+      <docs>http://www.ti.com/lit/ds/symlink/txb0104.pdf</docs>
+      <footprints>
+        <fp>TSSOP*14*5mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TXB0104PW</field>
+        <field name="Footprint">Package_SO:TSSOP-14_4.4x5mm_P0.65mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCCA" type="power_in"/>
+        <pin num="2" name="A1" type="BiDi"/>
+        <pin num="3" name="A2" type="BiDi"/>
+        <pin num="4" name="A3" type="BiDi"/>
+        <pin num="5" name="A4" type="BiDi"/>
+        <pin num="6" name="NC" type="NotConnected"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="OE" type="input"/>
+        <pin num="9" name="NC" type="NotConnected"/>
+        <pin num="10" name="B4" type="BiDi"/>
+        <pin num="11" name="B3" type="BiDi"/>
+        <pin num="12" name="B2" type="BiDi"/>
+        <pin num="13" name="B1" type="BiDi"/>
+        <pin num="14" name="VCCB" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Seeeduino XIAO" part="SeeeduinoXIAO">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SeeeduinoXIAO</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PA02_A0_D0" type="unspc"/>
+        <pin num="2" name="PA4_A1_D1" type="unspc"/>
+        <pin num="3" name="PA10_A2_D2" type="unspc"/>
+        <pin num="4" name="PA11_A3_D3" type="unspc"/>
+        <pin num="5" name="PA8_A4_D4_SDA" type="unspc"/>
+        <pin num="6" name="PA9_A5_D5_SCL" type="unspc"/>
+        <pin num="7" name="PB08_A6_D6_TX" type="unspc"/>
+        <pin num="8" name="PB09_A7_D7_RX" type="unspc"/>
+        <pin num="9" name="PA7_A8_D8_SCK" type="unspc"/>
+        <pin num="10" name="PA5_A9_D9_MISO" type="unspc"/>
+        <pin num="11" name="PA6_A10_D10_MOSI" type="unspc"/>
+        <pin num="12" name="3V3" type="unspc"/>
+        <pin num="13" name="GND" type="unspc"/>
+        <pin num="14" name="5V" type="unspc"/>
+        <pin num="15" name="5V" type="input"/>
+        <pin num="16" name="GND" type="input"/>
+        <pin num="17" name="PA31_SWDIO" type="input"/>
+        <pin num="18" name="PA30_SWCLK" type="input"/>
+        <pin num="19" name="RESET" type="input"/>
+        <pin num="20" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_BJT" part="BC817">
+      <aliases>
+        <alias>BC818</alias>
+        <alias>BC846</alias>
+        <alias>BC847</alias>
+        <alias>BC848</alias>
+        <alias>BC849</alias>
+        <alias>BC850</alias>
+        <alias>MMBT3904</alias>
+        <alias>MMBT5550L</alias>
+        <alias>MMBT5551L</alias>
+      </aliases>
+      <description>0.8A Ic, 45V Vce, NPN Transistor, SOT-23</description>
+      <docs>https://www.onsemi.com/pub/Collateral/BC818-D.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">BC817</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="B" type="input"/>
+        <pin num="2" name="E" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>D:\Program Files\KiCad\share\kicad\library/Connector_Generic.lib</uri>
+    </library>
+    <library logical="Device">
+      <uri>D:\Program Files\KiCad\share\kicad\library/Device.lib</uri>
+    </library>
+    <library logical="Logic_LevelTranslator">
+      <uri>D:\Program Files\KiCad\share\kicad\library/Logic_LevelTranslator.lib</uri>
+    </library>
+    <library logical="Seeeduino XIAO">
+      <uri>C:/Users/gjhur/Downloads/Seeeduino XIAO KICAD/Seeeduino XIAO KICAD/Seeeduino XIAO.lib</uri>
+    </library>
+    <library logical="Transistor_BJT">
+      <uri>D:\Program Files\KiCad\share\kicad\library/Transistor_BJT.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="~RESET">
+      <node ref="R1" pin="2"/>
+      <node ref="Q1" pin="3"/>
+      <node ref="J1" pin="5"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="R1" pin="1"/>
+      <node ref="U1" pin="14"/>
+      <node ref="U2" pin="14"/>
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="3" name="GND">
+      <node ref="U1" pin="13"/>
+      <node ref="J1" pin="6"/>
+      <node ref="R2" pin="2"/>
+      <node ref="U2" pin="7"/>
+      <node ref="Q1" pin="2"/>
+    </net>
+    <net code="4" name="Net-(Q1-Pad1)">
+      <node ref="Q1" pin="1"/>
+      <node ref="U2" pin="10"/>
+    </net>
+    <net code="5" name="SCK">
+      <node ref="J1" pin="3"/>
+      <node ref="U2" pin="11"/>
+    </net>
+    <net code="6" name="MISO">
+      <node ref="J1" pin="1"/>
+      <node ref="U2" pin="12"/>
+    </net>
+    <net code="7" name="MOSI">
+      <node ref="U2" pin="13"/>
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="8" name="+3V3">
+      <node ref="U2" pin="1"/>
+      <node ref="U1" pin="12"/>
+    </net>
+    <net code="9" name="Net-(U1-Pad18)">
+      <node ref="U1" pin="18"/>
+    </net>
+    <net code="10" name="Net-(U1-Pad19)">
+      <node ref="U1" pin="19"/>
+    </net>
+    <net code="12" name="Net-(U1-Pad15)">
+      <node ref="U1" pin="15"/>
+    </net>
+    <net code="13" name="Net-(U1-Pad16)">
+      <node ref="U1" pin="16"/>
+    </net>
+    <net code="14" name="OE">
+      <node ref="U2" pin="8"/>
+      <node ref="R2" pin="1"/>
+      <node ref="U1" pin="3"/>
+    </net>
+    <net code="15" name="Net-(U1-Pad17)">
+      <node ref="U1" pin="17"/>
+    </net>
+    <net code="16" name="Net-(U1-Pad6)">
+      <node ref="U1" pin="6"/>
+    </net>
+    <net code="17" name="Net-(U1-Pad5)">
+      <node ref="U1" pin="5"/>
+    </net>
+    <net code="19" name="Net-(U1-Pad7)">
+      <node ref="U1" pin="7"/>
+    </net>
+    <net code="20" name="Net-(U1-Pad8)">
+      <node ref="U1" pin="8"/>
+    </net>
+    <net code="21" name="Net-(U1-Pad9)">
+      <node ref="U2" pin="4"/>
+      <node ref="U1" pin="9"/>
+    </net>
+    <net code="22" name="Net-(U1-Pad4)">
+      <node ref="U1" pin="4"/>
+    </net>
+    <net code="23" name="Net-(U1-Pad20)">
+      <node ref="U1" pin="20"/>
+    </net>
+    <net code="24" name="Net-(U1-Pad11)">
+      <node ref="U1" pin="11"/>
+      <node ref="U2" pin="2"/>
+    </net>
+    <net code="25" name="Net-(U1-Pad10)">
+      <node ref="U2" pin="3"/>
+      <node ref="U1" pin="10"/>
+    </net>
+    <net code="26" name="Net-(U1-Pad1)">
+      <node ref="U1" pin="1"/>
+    </net>
+    <net code="27" name="RESET">
+      <node ref="U2" pin="5"/>
+      <node ref="U1" pin="2"/>
+    </net>
+    <net code="28" name="Net-(U2-Pad9)">
+      <node ref="U2" pin="9"/>
+    </net>
+    <net code="29" name="Net-(U2-Pad6)">
+      <node ref="U2" pin="6"/>
+    </net>
+  </nets>
+</export>
