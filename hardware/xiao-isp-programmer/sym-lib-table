@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name "Seeeduino-XIAO")(type "KiCad")(uri "${KICAD6_GIT_LIBRARIES}/Beirdo-KiCad-Libraries/Symbols/Seeeduino-XIAO.kicad_sym")(options "")(descr ""))
+)

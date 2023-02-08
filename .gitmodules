@@ -1,0 +1,3 @@
+[submodule "hardware/git-libraries/Beirdo-KiCad-Libraries"]
+	path = hardware/git-libraries/Beirdo-KiCad-Libraries
+	url = https://github.com/Beirdo/KiCad-Libraries
