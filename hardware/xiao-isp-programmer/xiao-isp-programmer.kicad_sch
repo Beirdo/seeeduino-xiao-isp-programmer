@@ -6,8 +6,8 @@
 
   (title_block
     (title "Seeeduino XIAO ISP Programmer")
-    (date "2021-01-01")
-    (rev "v2.0")
+    (date "2023-02-08")
+    (rev "v2.1")
     (company "Gavin Hurlbut")
   )
 
