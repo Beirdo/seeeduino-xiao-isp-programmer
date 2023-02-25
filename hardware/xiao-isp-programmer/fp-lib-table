@@ -1,3 +1,4 @@
 (fp_lib_table
   (lib (name "Seeeduino-XIAO")(type "KiCad")(uri "${KICAD6_GIT_LIBRARIES}/Beirdo-KiCad-Libraries/Footprints/Seeeduino-XIAO.pretty")(options "")(descr ""))
+  (lib (name "Beirdo")(type "KiCad")(uri "${KICAD6_GIT_LIBRARIES}/Beirdo-KiCad-Libraries/Footprints/Beirdo.pretty")(options "")(descr ""))
 )
